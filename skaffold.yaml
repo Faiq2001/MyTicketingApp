@@ -7,7 +7,7 @@ build:
   local:
     push: false
   artifacts:
-    - image: rallycoding/auth
+    - image: fa1q2001/auth
       context: auth
       docker:
         dockerfile: Dockerfile
@@ -15,7 +15,7 @@ build:
         manual:
           - src: "src/**/*.ts"
             dest: .
-    - image: rallycoding/ticketing-client
+    - image: fa1q2001/ticketing-client
       context: client
       docker:
         dockerfile: Dockerfile
@@ -23,7 +23,7 @@ build:
         manual:
           - src: '**/*.js'
             dest: .
-    - image: rallycoding/tickets
+    - image: fa1q2001/tickets
       context: tickets
       docker:
         dockerfile: Dockerfile
