@@ -17,7 +17,7 @@ spec:
           image: fa1q2001/tickets
           env:
             - name: MONGO_URI
-              value: 'mongodb://tickets-mongo-srv:27017/tickets'
+              value: 'mongodb+srv://faiqAffy:1234@cluster0.yefyv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
             - name: JWT_KEY
               valueFrom:
                 secretKeyRef:
