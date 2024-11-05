@@ -146,3 +146,16 @@ Once the prerequisites are in place, use Skaffold to start the project.
 
    ```bash
    skaffold dev
+   ```
+
+## 8. Push Changes to Your Forked Repository
+
+After making your changes, commit and push them to your forked repository:
+
+```bash
+git add .
+git commit -m "Description of your changes"
+git push origin main
+```
+
+Then, open a pull request from your forked repository to the original repository, describing the changes you've made. Once submitted, your changes will await review and approval before they can be merged.
