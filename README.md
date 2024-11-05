@@ -18,6 +18,7 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/yourproject.git
 cd yourproject
+```
 
 ## 2. Install Docker Desktop
 
