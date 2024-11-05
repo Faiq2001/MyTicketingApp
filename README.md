@@ -1,8 +1,30 @@
-# Project Setup Guide
 
-This guide will help you set up and run the project locally using Docker Desktop, Kubernetes, and Skaffold.
+# Contributing to the Project
 
-## Prerequisites
+If you want to contribute to this project, please follow the steps below:
+
+1. **Fork the Repository**
+
+   - Go to the project repository on GitHub.
+   - Click on the "Fork" button in the upper right corner of the page.
+   - This will create a copy of the repository under your GitHub account.
+
+2. **Clone the Forked Repository**
+
+   - Open a terminal.
+   - Run the following command, replacing `<your-username>` with your GitHub username:
+
+     ```bash
+     git clone https://github.com/<your-username>/<repository-name>.git
+     ```
+
+   - Navigate into the cloned project directory:
+
+     ```bash
+     cd <repository-name>
+     ```
+
+### Prerequisites
 
 Before you begin, ensure you have the following tools installed:
 
