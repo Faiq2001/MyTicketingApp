@@ -37,6 +37,8 @@ Download and install Docker Desktop from the [official Docker website](https://w
 
 ## 4. Install Skaffold
 
+### For Windows:
+
 1. Download the Skaffold binary from the [Skaffold website](https://skaffold.dev/).
 2. Place `skaffold.exe` in a new folder, for example: `C:\Program Files\Skaffold\`.
 3. Add this folder to your system’s PATH variable:
@@ -44,6 +46,43 @@ Download and install Docker Desktop from the [official Docker website](https://w
    - Go to the **Advanced** tab and click **Environment Variables**.
    - Under **System Variables**, find the **Path** variable, select it, and click **Edit**.
    - Add the path to the Skaffold folder (`C:\Program Files\Skaffold\`) and click **OK**.
+
+### For macOS:
+
+1. Download the Skaffold binary from the [Skaffold website](https://skaffold.dev/).
+2. Place the `skaffold` binary in a directory, for example: `/usr/local/bin`.
+3. Add this directory to your PATH (if not already done):
+   - Open a terminal.
+   - Run the command:
+
+     ```bash
+     export PATH=$PATH:/usr/local/bin
+     ```
+
+4. To make this change permanent, add the line above to your shell profile (e.g., `~/.bashrc`, `~/.zshrc`, or `~/.bash_profile`), and then source the file:
+
+   ```bash
+   source ~/.bashrc  # or ~/.zshrc, depending on your shell
+   ```
+
+### For Linux:
+
+1. Download the Skaffold binary from the [Skaffold website](https://skaffold.dev/).
+2. Place the `skaffold` binary in a directory, for example: `/usr/local/bin`.
+3. Add this directory to your PATH (if not already done):
+
+   - Open a terminal.
+   - Run the following command:
+
+     ```bash
+     export PATH=$PATH:/usr/local/bin
+     ```
+
+4. To make this change permanent, add the line above to your shell profile (e.g., `~/.bashrc` or `~/.zshrc`), and then source the file:
+
+   ```bash
+   source ~/.bashrc  # or ~/.zshrc, depending on your shell
+
 
 ## 5. Start the Project
 
