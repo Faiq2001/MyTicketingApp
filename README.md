@@ -106,7 +106,38 @@ Download and install Docker Desktop from the [official Docker website](https://w
    source ~/.bashrc  # or ~/.zshrc, depending on your shell
 
 
-## 5. Start the Project
+## 5. Install Ingress Controller
+
+Navigate to the `infra/k8s` directory in your project:
+
+```bash
+cd infra/k8s
+```
+
+Apply the Ingress controller configuration to your Kubernetes cluster:
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/cloud/deploy.yaml
+```
+
+## 6. Set up JWT Secret in Kubernetes
+
+To add the `jwt-secret` key, follow these steps:
+
+```bash
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY=<your-secret-key>
+```
+Replace `<your-secret-key>` with the actual JWT secret key.
+
+Verify that the secret was created successfully:
+
+``` bash
+kubectl get secrets
+```
+
+You should see `jwt-secret` listed in the output.
+
+## 7. Start the Project
 
 Once the prerequisites are in place, use Skaffold to start the project.
 
