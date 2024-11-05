@@ -33,13 +33,13 @@ Download and install Docker Desktop from the [official Docker website](https://w
 
 > **Note**: Ensure that Kubernetes is running in Docker Desktop after enabling it.
 
-![Kubernetes Settings](./path-to-screenshot.png) <!-- Replace with your actual screenshot path -->
+![Kubernetes Settings](k8s%20setup%20image.jpeg) 
 
 ## 4. Install Skaffold
 
 ### For Windows:
 
-1. Download the Skaffold binary from the [Skaffold website](https://skaffold.dev/).
+1. Download the Skaffold binary from the [Skaffold website](https://skaffold.dev/docs/install/#standalone-binary).
 2. Place `skaffold.exe` in a new folder, for example: `C:\Program Files\Skaffold\`.
 3. Add this folder to your system’s PATH variable:
    - Open **System Properties**.
@@ -49,7 +49,7 @@ Download and install Docker Desktop from the [official Docker website](https://w
 
 ### For macOS:
 
-1. Download the Skaffold binary from the [Skaffold website](https://skaffold.dev/).
+1. Download the Skaffold binary from the [Skaffold website](https://skaffold.dev/docs/install/#standalone-binary).
 2. Place the `skaffold` binary in a directory, for example: `/usr/local/bin`.
 3. Add this directory to your PATH (if not already done):
    - Open a terminal.
@@ -67,7 +67,7 @@ Download and install Docker Desktop from the [official Docker website](https://w
 
 ### For Linux:
 
-1. Download the Skaffold binary from the [Skaffold website](https://skaffold.dev/).
+1. Download the Skaffold binary from the [Skaffold website](https://skaffold.dev/docs/install/#standalone-binary).
 2. Place the `skaffold` binary in a directory, for example: `/usr/local/bin`.
 3. Add this directory to your PATH (if not already done):
 
