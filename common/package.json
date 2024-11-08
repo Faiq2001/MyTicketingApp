@@ -1,6 +1,6 @@
 {
   "name": "@fa1/common",
-  "version": "3.0.7",
+  "version": "3.0.9",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "clean": "del ./build/*",
-    "build": "tsc",
+    "build": "npm run clean && tsc",
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
@@ -26,7 +26,6 @@
     "cookie-session": "^2.1.0",
     "express": "^4.21.0",
     "express-validator": "^7.2.0",
-    "jsonwebtoken": "^9.0.2",
-    "node-nats-streaming": "^0.3.2"
+    "jsonwebtoken": "^9.0.2"
   }
 }
