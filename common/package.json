@@ -1,6 +1,6 @@
 {
   "name": "@fa1/common",
-  "version": "3.0.10",
+  "version": "3.0.7",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
