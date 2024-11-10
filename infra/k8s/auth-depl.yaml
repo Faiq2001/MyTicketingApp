@@ -16,11 +16,11 @@ spec:
         - name: auth
           image: fa1q2001/auth
           env:
-            - name: MONGO_URI
+            - name: MONGO_URI_AUTH
               valueFrom:
                 secretKeyRef:
-                  name: mongo-uri
-                  key: MONGO_URI
+                  name: mongo-uri-auth
+                  key: MONGO_URI_AUTH
             - name: JWT_KEY
               valueFrom:
                 secretKeyRef:

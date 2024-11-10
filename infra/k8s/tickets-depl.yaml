@@ -24,11 +24,11 @@ spec:
               value: 'http://nats-srv:4222'
             - name: NATS_CLUSTER_ID
               value: ticketing
-            - name: MONGO_URI
+            - name: MONGO_URI_TICKET
               valueFrom:
                 secretKeyRef:
-                  name: mongo-uri
-                  key: MONGO_URI
+                  name: mongo-uri-ticket
+                  key: MONGO_URI_TICKET
             - name: JWT_KEY
               valueFrom:
                 secretKeyRef:
