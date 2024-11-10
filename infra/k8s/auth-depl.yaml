@@ -17,7 +17,10 @@ spec:
           image: fa1q2001/auth
           env:
             - name: MONGO_URI
-              value: 'mongodb://auth-mongo-srv:27017/auth'
+              valueFrom:
+                secretKeyRef:
+                  name: mongo-uri
+                  key: MONGO_URI
             - name: JWT_KEY
               valueFrom:
                 secretKeyRef:
