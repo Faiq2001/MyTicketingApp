@@ -1,6 +1,6 @@
 {
   "name": "@fa1q2001/common",
-  "version": "3.0.7",
+  "version": "3.0.11",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "clean": "rimraf ./build/*",
-    "build": "npm run clean && tsc",
+    "build": "tsc",
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
@@ -17,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "del-cli": "^5.1.0",
+    "rimraf": "^6.0.1",
     "typescript": "^5.6.2"
   },
   "dependencies": {
@@ -26,6 +27,7 @@
     "cookie-session": "^2.1.0",
     "express": "^4.21.0",
     "express-validator": "^7.2.0",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "node-nats-streaming": "^0.3.2"
   }
 }

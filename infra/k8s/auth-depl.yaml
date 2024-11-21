@@ -17,10 +17,11 @@ spec:
           image: fa1q2001/auth
           env:
             - name: MONGO_URI_AUTH
-              valueFrom:
-                secretKeyRef:
-                  name: mongo-uri-auth
-                  key: MONGO_URI_AUTH
+              value: mongodb+srv://faiqSJSU:1234@mycluster.eptqfen.mongodb.net/?retryWrites=true&w=majority&appName=MyCluster
+              # valueFrom:
+              #   secretKeyRef:
+              #     name: mongo-uri-auth
+              #     key: MONGO_URI_AUTH
             - name: JWT_KEY
               valueFrom:
                 secretKeyRef:
