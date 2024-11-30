@@ -25,7 +25,7 @@ spec:
             - name: NATS_CLUSTER_ID
               value: ticketing
             - name: MONGO_URI_PAYMENTS
-              value: mongodb+srv://faiqmalik:1234@cluster0.clgdglf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+              # value: mongodb+srv://faiqmalik:1234@cluster0.clgdglf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
               # value: mongodb+srv://loi:1234@cluster0.kasun.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
               # valueFrom:
               #   secretKeyRef:
