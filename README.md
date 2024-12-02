@@ -85,7 +85,6 @@ The library is designed for reusability and is utilized across multiple microser
 2. **Install dependencies:**
 
     ```bash
-    Copy code
     npm install
     ```
 
