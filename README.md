@@ -92,8 +92,8 @@ The library is designed for reusability and is utilized across multiple microser
 3. **Start Contributing**
 We welcome all contributions! If you'd like to contribute to this project, please follow these steps:
 
-    * - Fork the repository. *
+    - Fork the repository.
 
-    * - Create a new branch, commit your changes and push it to the forked repository. *
+    - Create a new branch, commit your changes and push it to the forked repository.
 
-    * - Create a pull request to the main branch of the original repository. *
+    - Create a pull request to the main branch of the original repository.
