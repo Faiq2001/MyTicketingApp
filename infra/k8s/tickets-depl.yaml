@@ -25,7 +25,7 @@ spec:
             - name: NATS_CLUSTER_ID
               value: ticketing
             - name: MONGO_URI_TICKET
-              # value: mongodb+srv://faiqSJSU:1234@mycluster.eptqfen.mongodb.net/?retryWrites=true&w=majority&appName=MyCluster
+              value: mongodb+srv://faiqSJSU:1234@mycluster.eptqfen.mongodb.net/?retryWrites=true&w=majority&appName=MyCluster
               # valueFrom:
               #   secretKeyRef:
               #     name: mongo-uri-ticket
