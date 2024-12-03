@@ -1,6 +1,6 @@
 {
-  "name": "@fa1q2001/common",
-  "version": "3.0.12",
+  "name": "@rallycoding/common",
+  "version": "3.0.13",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
