@@ -61,11 +61,12 @@ The library is designed for reusability and is utilized across multiple microser
 
 ## Output Screenshots
 
-![Ticket Creation Screenshot](path_to_ticket_creation_screenshot.png)
+![SignIn Page Screenshot](./Sign-In%20Pagge.png)
 
-![Ticket Management Screenshot](path_to_ticket_management_screenshot.png)
+![Ticket Page Screenshot](./Tickets%20Page.png)
 
-![Admin Panel Screenshot](path_to_admin_panel_screenshot.png)
+![Orders Page Screenshot](./Orders%20Page.png)
+
 
 ## Getting Started
 
