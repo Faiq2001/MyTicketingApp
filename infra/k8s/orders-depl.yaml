@@ -26,7 +26,7 @@ spec:
               value: ticketing
             - name: MONGO_URI_ORDERS
               # value: mongodb+srv://faisal:<db_password>@cluster0.r38jy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-              # value: mongodb+srv://loi:1234@cluster0.kasun.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+              value: mongodb+srv://loi:1234@cluster0.kasun.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
               # valueFrom:
               #   secretKeyRef:
               #     name: mongo-uri-orders

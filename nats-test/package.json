@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fa1q2001/common": "^3.0.11",
+    "@fa1q2001/common": "^3.0.15",
     "@types/node": "^22.7.4",
     "node-nats-streaming": "^0.3.2",
     "ts-node-dev": "^2.0.0",

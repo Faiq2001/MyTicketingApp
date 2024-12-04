@@ -51,6 +51,7 @@ router.post(
     };
 
     res.status(200).send(existingUser);
+    console.log(req.session);
   }
 );
 

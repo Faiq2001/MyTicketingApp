@@ -453,6 +453,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 const drawerWidth = 240;
 
@@ -491,10 +492,13 @@ function DrawerAppBar({ currentUser, window }) {
       </Typography>
       <Divider />
       <List>
+        console.log(currentUser);
         {navItems.map((item) => (
           <ListItem key={item.label} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }} component="a" href={item.href}>
-              <ListItemText primary={item.label} />
+            <Link href={item.href} passHref>
+    <ListItemText primary={item.label} />
+  </Link>
             </ListItemButton>
           </ListItem>
         ))}

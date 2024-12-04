@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fa1q2001/common": "^3.0.11",
+    "@fa1q2001/common": "^3.0.15",
     "@types/bull": "^4.10.0",
     "bull": "^4.16.3",
     "node-nats-streaming": "^0.3.2",
