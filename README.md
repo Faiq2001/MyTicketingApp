@@ -97,3 +97,8 @@ We welcome all contributions! If you'd like to contribute to this project, pleas
     - Create a new branch, commit your changes and push it to the forked repository.
 
     - Create a pull request to the main branch of the original repository.
+
+
+## NOTE:  
+- Update the hosts file to redirect 127.0.0.1 to ticketing.dev.
+- You may get warning propmt on browser for untrusted certificate, to bypass on chrome you can click on site anywhere and type THISISUNSAFE.
